@@ -1,6 +1,6 @@
 #pragma once
 #define CONFIGURATION_H_VERSION 020008
-#define PRUSA_SKR_CONFIGURATION_VERSION "2020-12-1"
+#define PRUSA_SKR_CONFIGURATION_VERSION "2020-12-2"
 
 //===========================================================================
 //====================== All-in-One Prusa SKR Firmware ======================
@@ -55,7 +55,7 @@
  * Options:  1: BigTreeTech SKR 1.4        (LPC1768)
  *           2: BigTreeTech SKR 1.4 Turbo  (LPC1769)
  */
-#define PRUSA_SKR_MOTHERBOARD 1
+#define PRUSA_SKR_MOTHERBOARD 2
 
 //===========================================================================
 //============================= Stepper Motors ==============================
@@ -70,8 +70,9 @@
  *           2: Bondtech/Motech 1.8° pancake
  *           3: LDO 0.9° pancake
  *           4: LDO planetary
+ *           5: Trianglelab 3:1
  */
-#define PRUSA_SKR_E_STEPPER 1
+#define PRUSA_SKR_E_STEPPER 5
 
 /**
  * X/Y Steppers
@@ -160,7 +161,7 @@
  * Options:  1: Stock/OLED RepRapDiscount smart controller
  *           2: BigTreeTech Dual Mode TFT (TFT35/TFT50/TFT70,etc.)
  */
-#define PRUSA_SKR_DISPLAY 1
+#define PRUSA_SKR_DISPLAY 2
 
 //===========================================================================
 //================================ NeoPixels ================================
