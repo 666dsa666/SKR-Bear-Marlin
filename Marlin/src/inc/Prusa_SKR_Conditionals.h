@@ -80,8 +80,8 @@
  */
 #ifndef PRUSA_SKR_E_STEPPER
   #error "PRUSA_SKR_E_STEPPER not found."
-#elif PRUSA_SKR_E_STEPPER < 1 || PRUSA_SKR_E_STEPPER > 4
-  #error "PRUSA_SKR_E_STEPPER must be between 1 and 4"
+#elif PRUSA_SKR_E_STEPPER < 1 || PRUSA_SKR_E_STEPPER > 5
+  #error "PRUSA_SKR_E_STEPPER must be between 1 and 5"
 #elif (PRUSA_SKR_E_STEPPER == 1) && (PRUSA_SKR_EXTRUDER == 3 || PRUSA_SKR_EXTRUDER == 4)
   #error "Stock 1.8° stepper on a BMG extruder is not supported."
 #elif (PRUSA_SKR_E_STEPPER == 2 || PRUSA_SKR_E_STEPPER == 3) && (PRUSA_SKR_EXTRUDER == 1 || PRUSA_SKR_EXTRUDER == 2)
