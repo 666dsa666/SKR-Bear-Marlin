@@ -77,6 +77,7 @@
  *           2: Bondtech/Motech 1.8° pancake
  *           3: LDO 0.9° pancake
  *           4: LDO planetary
+ *           5: Trianglelab 3:1
  */
 #ifndef PRUSA_SKR_E_STEPPER
   #error "PRUSA_SKR_E_STEPPER not found."
